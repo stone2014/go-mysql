@@ -11,10 +11,10 @@ import (
 	"time"
 
 	"github.com/pingcap/errors"
+	uuid "github.com/satori/go.uuid"
+	"github.com/stone2014/go-log/log"
 	"github.com/stone2014/go-mysql/client"
 	. "github.com/stone2014/go-mysql/mysql"
-	uuid "github.com/satori/go.uuid"
-	"github.com/siddontang/go-log/log"
 )
 
 var (

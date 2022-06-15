@@ -7,7 +7,7 @@ import (
 
 	"github.com/pingcap/errors"
 	. "github.com/stone2014/go-mysql/mysql"
-	"github.com/siddontang/go/hack"
+	"github.com/stone2014/go/hack"
 )
 
 const (

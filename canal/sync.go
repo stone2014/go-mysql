@@ -7,11 +7,11 @@ import (
 
 	"github.com/pingcap/errors"
 	"github.com/pingcap/parser/ast"
+	uuid "github.com/satori/go.uuid"
+	"github.com/stone2014/go-log/log"
 	"github.com/stone2014/go-mysql/mysql"
 	"github.com/stone2014/go-mysql/replication"
 	"github.com/stone2014/go-mysql/schema"
-	uuid "github.com/satori/go.uuid"
-	"github.com/siddontang/go-log/log"
 )
 
 func (c *Canal) startSyncer() (*replication.BinlogStreamer, error) {

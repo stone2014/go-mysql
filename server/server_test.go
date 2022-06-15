@@ -13,9 +13,9 @@ import (
 	_ "github.com/go-sql-driver/mysql"
 	. "github.com/pingcap/check"
 	"github.com/pingcap/errors"
+	"github.com/stone2014/go-log/log"
 	"github.com/stone2014/go-mysql/mysql"
 	"github.com/stone2014/go-mysql/test_util/test_keys"
-	"github.com/siddontang/go-log/log"
 )
 
 var testAddr = flag.String("addr", "127.0.0.1:4000", "MySQL proxy server address")

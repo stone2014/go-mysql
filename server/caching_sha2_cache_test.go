@@ -12,9 +12,9 @@ import (
 	_ "github.com/go-sql-driver/mysql"
 	. "github.com/pingcap/check"
 	"github.com/pingcap/errors"
+	"github.com/stone2014/go-log/log"
 	"github.com/stone2014/go-mysql/mysql"
 	"github.com/stone2014/go-mysql/test_util/test_keys"
-	"github.com/siddontang/go-log/log"
 )
 
 var delay = 50

@@ -6,7 +6,7 @@ import (
 
 	. "github.com/stone2014/go-mysql/mysql"
 	"github.com/stone2014/go-mysql/packet"
-	"github.com/siddontang/go/sync2"
+	"github.com/stone2014/go/sync2"
 )
 
 /*

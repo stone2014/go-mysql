@@ -9,9 +9,9 @@ import (
 	. "github.com/pingcap/check"
 	"github.com/pingcap/errors"
 	"github.com/pingcap/parser"
+	"github.com/stone2014/go-log/log"
 	"github.com/stone2014/go-mysql/mysql"
 	"github.com/stone2014/go-mysql/replication"
-	"github.com/siddontang/go-log/log"
 )
 
 var testHost = flag.String("host", "127.0.0.1", "MySQL host")

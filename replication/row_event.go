@@ -10,10 +10,10 @@ import (
 	"time"
 
 	"github.com/pingcap/errors"
-	. "github.com/stone2014/go-mysql/mysql"
 	"github.com/shopspring/decimal"
-	"github.com/siddontang/go-log/log"
-	"github.com/siddontang/go/hack"
+	"github.com/stone2014/go-log/log"
+	. "github.com/stone2014/go-mysql/mysql"
+	"github.com/stone2014/go/hack"
 )
 
 var errMissingTableMapEvent = errors.New("invalid table id, no corresponding table map event")
