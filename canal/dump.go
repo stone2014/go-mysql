@@ -8,8 +8,8 @@ import (
 	"time"
 
 	"github.com/pingcap/errors"
-	"github.com/ruiaylin/go-mysql/mysql"
-	"github.com/ruiaylin/go-mysql/schema"
+	"github.com/stone2014/go-mysql/mysql"
+	"github.com/stone2014/go-mysql/schema"
 	"github.com/shopspring/decimal"
 	"github.com/siddontang/go-log/log"
 )

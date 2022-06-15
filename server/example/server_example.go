@@ -3,9 +3,9 @@ package main
 import (
 	"net"
 
-	"github.com/ruiaylin/go-mysql/mysql"
-	"github.com/ruiaylin/go-mysql/server"
-	"github.com/ruiaylin/go-mysql/test_util/test_keys"
+	"github.com/stone2014/go-mysql/mysql"
+	"github.com/stone2014/go-mysql/server"
+	"github.com/stone2014/go-mysql/test_util/test_keys"
 	"github.com/siddontang/go-log/log"
 
 	"crypto/tls"

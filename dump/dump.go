@@ -8,7 +8,7 @@ import (
 	"strings"
 
 	"github.com/pingcap/errors"
-	. "github.com/ruiaylin/go-mysql/mysql"
+	. "github.com/stone2014/go-mysql/mysql"
 	"github.com/siddontang/go-log/log"
 )
 

@@ -11,8 +11,8 @@ import (
 	"time"
 
 	"github.com/pingcap/errors"
-	"github.com/ruiaylin/go-mysql/client"
-	. "github.com/ruiaylin/go-mysql/mysql"
+	"github.com/stone2014/go-mysql/client"
+	. "github.com/stone2014/go-mysql/mysql"
 	uuid "github.com/satori/go.uuid"
 	"github.com/siddontang/go-log/log"
 )

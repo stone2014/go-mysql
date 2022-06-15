@@ -9,8 +9,8 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/ruiaylin/go-mysql/canal"
-	"github.com/ruiaylin/go-mysql/mysql"
+	"github.com/stone2014/go-mysql/canal"
+	"github.com/stone2014/go-mysql/mysql"
 )
 
 var host = flag.String("host", "127.0.0.1", "MySQL host")

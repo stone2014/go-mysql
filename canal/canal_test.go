@@ -9,8 +9,8 @@ import (
 	. "github.com/pingcap/check"
 	"github.com/pingcap/errors"
 	"github.com/pingcap/parser"
-	"github.com/ruiaylin/go-mysql/mysql"
-	"github.com/ruiaylin/go-mysql/replication"
+	"github.com/stone2014/go-mysql/mysql"
+	"github.com/stone2014/go-mysql/replication"
 	"github.com/siddontang/go-log/log"
 )
 

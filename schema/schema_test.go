@@ -7,8 +7,8 @@ import (
 	"testing"
 
 	. "github.com/pingcap/check"
-	"github.com/ruiaylin/go-mysql/client"
-	_ "github.com/ruiaylin/go-mysql/driver"
+	"github.com/stone2014/go-mysql/client"
+	_ "github.com/stone2014/go-mysql/driver"
 )
 
 // use docker mysql for test

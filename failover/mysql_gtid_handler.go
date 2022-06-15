@@ -5,7 +5,7 @@ import (
 	"net"
 
 	"github.com/pingcap/errors"
-	. "github.com/ruiaylin/go-mysql/mysql"
+	. "github.com/stone2014/go-mysql/mysql"
 )
 
 type MysqlGTIDHandler struct {

@@ -11,7 +11,7 @@ import (
 	"unicode"
 
 	"github.com/pingcap/errors"
-	. "github.com/ruiaylin/go-mysql/mysql"
+	. "github.com/stone2014/go-mysql/mysql"
 	uuid "github.com/satori/go.uuid"
 )
 

@@ -10,7 +10,7 @@ import (
 	"time"
 
 	"github.com/pingcap/errors"
-	. "github.com/ruiaylin/go-mysql/mysql"
+	. "github.com/stone2014/go-mysql/mysql"
 	"github.com/shopspring/decimal"
 	"github.com/siddontang/go-log/log"
 	"github.com/siddontang/go/hack"
@@ -137,7 +137,7 @@ func (e *TableMapEvent) Decode(data []byte) error {
 	pos += nullBitmapSize
 
 	/*
-		// add by ruiaylin to match our internal mysql trunks
+		// add by stone2014 to match our internal mysql trunks
 			if err = e.decodeOptionalMeta(data[pos:]); err != nil {
 				return err
 			}

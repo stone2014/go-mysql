@@ -14,11 +14,11 @@ import (
 
 	"github.com/pingcap/errors"
 	"github.com/pingcap/parser"
-	"github.com/ruiaylin/go-mysql/client"
-	"github.com/ruiaylin/go-mysql/dump"
-	"github.com/ruiaylin/go-mysql/mysql"
-	"github.com/ruiaylin/go-mysql/replication"
-	"github.com/ruiaylin/go-mysql/schema"
+	"github.com/stone2014/go-mysql/client"
+	"github.com/stone2014/go-mysql/dump"
+	"github.com/stone2014/go-mysql/mysql"
+	"github.com/stone2014/go-mysql/replication"
+	"github.com/stone2014/go-mysql/schema"
 	"github.com/siddontang/go-log/log"
 )
 

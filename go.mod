@@ -12,9 +12,9 @@ require (
 	github.com/pingcap/tipb v0.0.0-20190428032612-535e1abaa330 // indirect
 	github.com/satori/go.uuid v1.2.0
 	github.com/shopspring/decimal v0.0.0-20180709203117-cd690d0c9e24
-	github.com/siddontang/go v0.0.0-20180604090527-bdc77568d726
-	github.com/siddontang/go-log v0.0.0-20180807004314-8d05993dda07
-	github.com/siddontang/go-mysql v0.0.0-20191114035249-07ca7840b812 // indirect
+	github.com/stone2014/go v1.0.0
+	github.com/stone2014/go-log v1.0.0
+	github.com/stone2014/go-mysql v1.0.1
 	github.com/sirupsen/logrus v1.4.1 // indirect
 	golang.org/x/text v0.3.2 // indirect
 )
